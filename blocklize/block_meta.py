@@ -488,3 +488,5 @@ try:
 except:
     MODEL_INOUT_SHAPE = None
     print('tools/MODEL_INOUT_SHAPE.json not loaded')
+
+MODEL_ZOO = list(MODEL_INOUT_SHAPE.keys())
